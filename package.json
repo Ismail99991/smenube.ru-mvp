@@ -1,0 +1,27 @@
+{
+  "name": "smenube-ru",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Платформа для быстрого найма самозанятых исполнителей",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "husky": "^9.0.11"
+  },
+  "packageManager": "pnpm@8.15.9",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
