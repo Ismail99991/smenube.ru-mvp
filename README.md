@@ -24,3 +24,6 @@
 ```bash
 git clone https://github.com/Ismail99991/smenube.ru-mvp.git
 cd smenube.ru-mvp
+## Деплой
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FIsmail99991%2Fsmenube.ru-mvp)
