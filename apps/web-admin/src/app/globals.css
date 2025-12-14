@@ -1,12 +1,11 @@
 @import "tailwindcss";
 
-/* базовые переменные под твой дизайн */
+/* CSS-переменные под твой UI */
 :root {
   --background: #ffffff;
   --foreground: #0a0a0a;
 }
 
-/* тёмная тема по системным настройкам */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #000000;
@@ -25,22 +24,17 @@ body {
   background: var(--background);
   color: var(--foreground);
 
-  /* нормальные дефолтные шрифты */
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
-    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-
-  /* чтобы текст не выглядел “грязно” */
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* чтобы ссылки выглядели как ссылки */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* формы не выглядели как из 90-х */
 button,
 input,
 select,
